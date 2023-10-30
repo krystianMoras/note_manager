@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "note-manager"
+version = "0.1.0"
+description = ""
+authors = ["krystianMoras <krystian.moras@student.put.poznan.pl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+watchdog = "^3.0.0"
+pyyaml = "^6.0.1"
+loguru = "^0.7.2"
+gcsa = "^2.1.0"
+pydantic = "^2.4.2"
+faster-whisper = "^0.9.0"
+watchfiles = "^0.21.0"
+pyinstaller = "^6.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

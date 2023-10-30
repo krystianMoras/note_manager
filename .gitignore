@@ -1,0 +1,6 @@
+dist
+build
+*.yaml
+*.spec
+credentials.json
+token.pickle
